@@ -6,9 +6,10 @@ const Button = (props, ref) => {
 	const localRef = useRef();
 
 	useImperativeHandle(ref, () => ({
-		changeButtonColor: (color) => setColor(color),
+		changeColor: (color) => {setColor(color)},
 		focusToMe: () => localRef.current.focus(),
 	}));
+
 
 
 	return (

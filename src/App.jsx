@@ -19,7 +19,7 @@ export const App = () => {
 
 // Obtain conponent's reference and execute conponent's function
 	const buttonLocalFuncHandler = () => {
-		localFuncRef.current.changeButtonColor('bg-pink-300');
+		localFuncRef.current.changeColor('text-gray-200 font-bold');
 		localFuncRef.current.focusToMe();
 	}
 
