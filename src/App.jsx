@@ -24,7 +24,7 @@ export const App = () => {
 	}
 
 	return (
-		<div className='m-3'>
+		<div className='m-2'>
 			<div className='ml-5'>
 				<input  ref={buttonRef} className={inputClass}/>
 				<button onClick={buttonClickHandler} className={buttonClass}>html element</button>
